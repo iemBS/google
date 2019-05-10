@@ -1,0 +1,5 @@
+Create & Set Environment Variable
+Preconditions:
+  - Env variable is called "BUCKET"
+Main Success Scenario:
+  1. BUCKET=cheese
