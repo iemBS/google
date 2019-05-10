@@ -1,0 +1,5 @@
+See Hadoop File System Contents
+Preconditions:
+  - Hadoop is running in GCP instance
+Main Success Scenario:
+  1. hadoop fs -ls /
