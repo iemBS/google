@@ -1,0 +1,7 @@
+Copy File to Cloud Storage Bucket
+Preconditions:
+  - BUCKET variable exists
+  - BUCKET variable has path to bucket
+  - Text file is at /training/road-not-taken.txt
+Main Success Scenario:
+  1. gsutil cp /training/road-not-taken.txt gs://$BUCKET
