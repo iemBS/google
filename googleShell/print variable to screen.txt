@@ -1,0 +1,6 @@
+Print Variable to Screen
+Preconditions:
+  - BUCKET variable exists
+Main Success Scenario:
+  1. echo $BUCKET
+ 
