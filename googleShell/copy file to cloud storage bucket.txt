@@ -5,3 +5,10 @@ Preconditions:
   - Text file is at /training/road-not-taken.txt
 Main Success Scenario:
   1. gsutil cp /training/road-not-taken.txt gs://$BUCKET
+  
+  
+  
+Why would you want to use Cloud Storage instead of HDFS?
+  - You can shut down the cluster when you are not running jobs. The storage persists even when the cluster is shut down, so you don't have to pay for the cluster just to maintain data in HDFS.
+  - In some cases Cloud Storage provides better performance than HDFS.
+  - Cloud Storage does not require the administration overhead of a local file system.
