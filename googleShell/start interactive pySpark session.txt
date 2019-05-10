@@ -1,0 +1,3 @@
+Start Interactive PySpark Session
+Main Success Scenario:
+  1. pyspark
