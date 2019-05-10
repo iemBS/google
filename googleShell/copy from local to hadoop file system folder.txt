@@ -1,0 +1,8 @@
+Copy from local to Hadoop File System folder
+Preconditions:
+  - Hadoop is running in current GCP instance
+  - "cheese" folder exists in Hadoop file system
+  - "myData.txt" file exists in current folder
+Main Success Scenario:
+  1. hadoop fs -copyFromLocal myData.txt /cheese/.
+
