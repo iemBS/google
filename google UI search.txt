@@ -1,0 +1,40 @@
+Limit to specific site
+  - This will search for "bo jackson shoes" text on the ebay.com site
+      bo jackson shoes site:ebay.com
+  - This will search for "book" text on the https://wiki.python.org/moin/PythonBooks site 
+      book site:https://wiki.python.org/moin/PythonBooks/
+  
+Limit to specific Domain Ext
+  - This will search for the "Sarbanes-Oxley Act" text in the content of a site with a ".gov" domain extension
+      Sarbanes-Oxley Act site:*.gov
+    
+Limit by file type
+  - This will search for the "Sarbanes-Oxley Act" text in PDF files on sites
+      Sarbanes-Oxley Act filetype:pdf
+  - Files types searchable on Google as of 190510 (support.google.com/webmasters/answer/35287?hl=en)
+    Adobe Flash (.swf)
+    Adobe Portable Document Format (.pdf)
+    Adobe PostScript (.ps)
+    Autodesk Design Web Format (.dwf)
+    Google Earth (.kml, .kmz)
+    GPS eXchange Format (.gpx)
+    Hancom Hanword (.hwp)
+    HTML (.htm, .html, other file extensions)
+    Microsoft Excel (.xls, .xlsx)
+    Microsoft PowerPoint (.ppt, .pptx)
+    Microsoft Word (.doc, .docx)
+    OpenOffice presentation (.odp)
+    OpenOffice spreadsheet (.ods)
+    OpenOffice text (.odt)
+    Rich Text Format (.rtf)
+    Scalable Vector Graphics (.svg)
+    TeX/LaTeX (.tex)
+    Text (.txt, .text, other file extensions), including source code in common programming languages:
+        Basic source code (.bas)
+        C/C++ source code (.c, .cc, .cpp, .cxx, .h, .hpp)
+        C# source code (.cs)
+        Java source code (.java)
+        Perl source code (.pl)
+        Python source code (.py)
+    Wireless Markup Language (.wml, .wap)
+    XML (.xml)
