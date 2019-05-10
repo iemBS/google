@@ -1,0 +1,11 @@
+Create File
+Preconditions:
+  - File is named "cheese.txt"
+Main Success Scenario:
+  1. nano cheese.txt
+
+
+
+
+- ctr+x to exit nano and be asked if i want to save
+- ctr+o to save file changes in nano
