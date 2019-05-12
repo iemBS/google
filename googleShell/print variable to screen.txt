@@ -1,6 +1,9 @@
 Print Variable to Screen
 Preconditions:
   - BUCKET variable exists
+  - APIKEY variable exists
 Main Success Scenario:
   1. echo $BUCKET
+Alternatives:
+  1a. echo $BUCKET, $APIKEY
  
