@@ -1,0 +1,7 @@
+Make Variable Available in Cloud Shell
+Preconditions:
+  - BUCKET variable exists in master node of a cluster
+  - SSH instance is open on master node of a cluster
+Main Success Scenario
+  1. export BUCKET
+
