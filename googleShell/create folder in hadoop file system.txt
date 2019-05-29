@@ -6,4 +6,4 @@ Main Success Scenario:
   1. hadoop fs -mkdir /cheese
 Alternatives:
   1a. Create in not current folder
-    1a1. [need to finish]
+    1a1. [xxx: need to finish]
