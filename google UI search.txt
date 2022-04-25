@@ -1,3 +1,14 @@
+Limit to time window
+  -The time searched on is the time the page was crawled by google. 
+    -Ref @ https://developers.google.com/search/docs/advanced/guidelines/how-search-works
+  -Pages take a few days to few weeks to get crawled by google
+    -Ref @ https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl#:~:text=platform's%20support%20articles.-,General%20guidelines,or%20the%20URL%20Inspection%20tool.
+  -This will get results after the year 2019
+    nike after:2019
+  -This will get results for cheese after 1, June 2007 and before 10, April 2012
+     cheese after:2007-06-01 before:2012-04-10
+    
+
 Limit to specific site
   - This will search for "bo jackson shoes" text on the ebay.com site
       bo jackson shoes site:ebay.com
